@@ -10,6 +10,13 @@ urlpatterns = [
             'get': 'list',
             'post': 'create',
         }),
-        name='transactions',
+        name='transactions-list-create',
+    ),
+    url(
+        r'^transactions/(?P<pk>[a-f0-9-]+)/$',
+        views.TransactionViewSet.as_view({
+            'delete': 'destroy',
+        }),
+        name='transactions-delete',
     ),
 ]
