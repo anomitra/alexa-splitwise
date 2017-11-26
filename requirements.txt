@@ -1,0 +1,6 @@
+Django==1.11.4
+django-fakery==1.6.1
+djangorestframework==3.5.4
+dj-database-url==0.4.2
+envparse==0.2.0
+psycopg2==2.6.2
