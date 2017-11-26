@@ -18,6 +18,7 @@ ALLOWED_HOSTS = ['*']
 
 VERIFI_APPS = [
     'transactions',
+    'sslserver',
 ]
 
 INSTALLED_APPS = [
